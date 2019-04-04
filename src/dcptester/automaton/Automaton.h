@@ -7,8 +7,8 @@
  * of the BSD 3-CLause license.  See the LICENSE file for details.
  */
 
-#ifndef ACU_TESTER_AUTOMATON_H
-#define ACU_TESTER_AUTOMATON_H
+#ifndef DCP_TESTER_AUTOMATON_H
+#define DCP_TESTER_AUTOMATON_H
 
 
 #include <dcp/model/pdu/DcpPduFactory.hpp>
@@ -72,4 +72,4 @@ private:
 };
 
 
-#endif //ACU_TESTER_AUTOMATON_H
+#endif //DCP_TESTER_AUTOMATON_H
