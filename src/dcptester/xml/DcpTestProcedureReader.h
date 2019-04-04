@@ -7,8 +7,8 @@
  * of the BSD 3-CLause license.  See the LICENSE file for details.
  */
 
-#ifndef ACU_TESTER_DCPTESTPROCEDUREREADER_H
-#define ACU_TESTER_DCPTESTPROCEDUREREADER_H
+#ifndef DCP_TESTER_DCPTESTPROCEDUREREADER_H
+#define DCP_TESTER_DCPTESTPROCEDUREREADER_H
 
 #include <xercesc/parsers/XercesDOMParser.hpp>
 #include <iostream>
@@ -73,4 +73,4 @@ static DcpTestSuite::DcpTestProcedure* readDcpTestProcedure(const char *acuDFile
 
     return new DcpTestSuite::DcpTestProcedure(*acuDescriptionElement);
 }
-#endif //ACU_TESTER_DCPTESTPROCEDUREREADER_H
+#endif //DCP_TESTER_DCPTESTPROCEDUREREADER_H

@@ -7,8 +7,8 @@
  * of the BSD 3-CLause license.  See the LICENSE file for details.
  */
 
-#ifndef ACU_TESTER_ACUTESTER_H
-#define ACU_TESTER_ACUTESTER_H
+#ifndef DCP_TESTER_DCPTESTER_H
+#define DCP_TESTER_DCPTESTER_H
 
 #include <dcp/logic/DcpManagerMaster.hpp>
 #include <dcp/helper/Helper.hpp>
@@ -1141,4 +1141,4 @@ private:
 
 
 
-#endif //ACU_TESTER_ACUTESTER_H
+#endif //DCP_TESTER_DCPTESTER_H
