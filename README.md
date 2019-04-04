@@ -1,7 +1,20 @@
 # DCP Tester
 
 ### Build the DCP Tester
-Take a look at the [wiki](https://github.com/ChKater/DCP-Tester/wiki/Build) how to build the DCP tester
+To Build the DCP Tester the following Libararies needed to be installed: 
+- Asio
+- Codesynthesis XSD
+- DCPLib
+- Xerces-C
+
+You can use CMake to build the DCP Tester. On a linux host e. g.:
+```
+cd /directory/of/DCPLib
+mkdir -p build
+pushd build
+cmake ..
+cmake --build 
+```
 
 ## How to Use the DCP Tester
 To test a DCP slave implementation you need to do the following steps:
